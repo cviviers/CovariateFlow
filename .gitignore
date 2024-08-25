@@ -1,0 +1,9 @@
+data/
+
+__pycache__/
+*.py[cod]
+saved_models/
+checkpoints/
+checkpoints/backup/*
+wandb/
+results/
