@@ -35,7 +35,7 @@ The image shows example predictions made by CovariateFlow on the ImageNet200(-C)
 ### Install Requirements
 
 ```bash
-git clone 
+git clone https://github.com/cviviers/CovariateFlow.git
 python -m venv covariate_env
 .covariate_env/Scripts/Activate.ps1
 cd covariateflow
@@ -43,7 +43,7 @@ pip install -r requirements
 ```
 ### Docker
 
-You can download the docker image [here]() or build it yourself with [dockerfile](dockerfile) in the repo. 
+You can download the docker image [here](https://hub.docker.com/r/sudochris/cflow) or build it yourself with [dockerfile](dockerfile) in the repo. 
 
 
 ## Datasets
