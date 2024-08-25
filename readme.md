@@ -3,6 +3,18 @@
 </div>
 
 <div align="center">
+ <h3> Paper published at <a href="https://uncertainty-cv.github.io/2024/">ECCV 2024 3rd Workshop on Uncertainty Quantification for Computer Vision </a> </h3>
+</div>
+
+<h3 align="center">
+  <a href="">Project Page (Coming soon)</a> |
+  <a href="">Paper (Coming soon)</a> |
+  <a href="">arXiv (Coming soon)</a> |
+</h3>
+
+
+
+<div align="center">
     <img src="images/covariateflow_diagram.png" alt="CovariateFlow Image", width="100%">
     <br>
     <p>Detecting out-of-distribution (OOD) sensory data and covariate distribution shifts aims to identify new test examples with different high-level image statistics compared to the normal in-distribution (ID) set. This work demonstrates that CovariateFlow, an unsupervised generative model, can effectively identify samples that deviate significantly from this learned distribution by solely modeling the heteroscedastic high-frequency image component distribution. The proposed method uses conditional Normalizing Flows to detect OOD covariate shifts, showing its effectiveness on CIFAR10 vs. CIFAR10-C and ImageNet200 vs. ImageNet200-C datasets. </p>
