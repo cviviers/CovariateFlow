@@ -9,7 +9,7 @@
 <h3 align="center">
   <a href="">Project Page (Coming soon)</a> |
   <a href="">Paper (Coming soon)</a> |
-  <a href="">arXiv (Coming soon)</a> |
+  <a href="https://arxiv.org/abs/2409.03043">arXiv</a> |
 </h3>
 
 

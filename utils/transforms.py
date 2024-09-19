@@ -5,8 +5,6 @@ from typing import Any, Sequence
 import random
 import torchvision.transforms.functional as TF
 import torchvision as TV
-from .separateLowHighOHWT import lhs_2d
-from .separateLowHighDWT import lhs_Haar_2d
 from scipy.ndimage import gaussian_filter
 from .loaders import ImageData
 import skimage
@@ -29,16 +27,6 @@ class Scale_Image_Intensity(object):
 
         # img = img * np.random.normal(loc=self.mu, scale=self.std, size=img.shape)  
         return img * self.scale
-
-class Decompose_Image(object):
-    def __init__(self, depth, padLen) -> None:
-        super().__init__()
-        # self.levels = levels
-        self.decomposition = lhs_Haar_2d(depth, padLen)
-    def __call__(self, img):
-        L, H = self.decomposition( img[1])
-        # img = img * np.random.normal(loc=self.mu, scale=self.std, size=img.shape)  
-        return img[0], L, H
 
 # Conver numpy array to tensor
 def toTensor(sample):
